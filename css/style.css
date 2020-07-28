@@ -1,0 +1,25 @@
+#overview {
+    float: left;
+    background-blend-mode: multiply;
+    padding: 100px 0;
+    width: 100%;
+    text-align: center;
+}
+
+#overview .img {
+    float: left;
+    width: 30%; 
+    margin-top: 50px;
+    margin-left: 18%;
+}
+
+#overview .img:nth-child(odd) {
+    margin-left: 3%;
+}
+
+#overview span {
+    float: left;
+    width: 100%;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
