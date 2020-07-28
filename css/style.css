@@ -8,13 +8,13 @@
 
 #overview .img {
     float: left;
-    width: 30%; 
+    width: 30%;
     margin-top: 50px;
-    margin-left: 18%;
+    margin-left: 22%;
 }
 
 #overview .img:nth-child(odd) {
-    margin-left: 3%;
+    margin-left: -5%;
 }
 
 #overview span {
