@@ -7,16 +7,18 @@
 }
 
 body {
-    background-color: #fff1f0;
+    background-color: #f0f0f0;
 }
 
 li, a, button {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: #000;
+    color: #1c1c1c;
     text-decoration: none;
+    outline: none;
 }
+
 
 header {
     display: flex;
@@ -44,7 +46,9 @@ header {
 }
 
 .nav__links li a:hover{
-    color:rgba(44, 255, 44, 1);
+    color: #000;
+    background-color: #dbdbdb;
+    border-radius: 2px;
 }
 
 button {
