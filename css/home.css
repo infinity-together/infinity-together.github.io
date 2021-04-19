@@ -1,31 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Brygada+1918:wght@500;700&display=swap');
-
-#Assistant {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-family: "Inter", sans-serif;
-    font-size: 120%;
-    font-weight: 400;
-}
-
-#astebe {
-    text-align: center;
-    background-color: #4897D8;
-    margin-top: 28px;
-    margin-bottom: 0;
-    font-family: "Inter", sans-serif;
-    border-radius: 7px;
-    color: white;
-    padding: 7px 14px 7px 14px;
-}
-#archguiscr {
-    margin-bottom: 20px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+ 
 .a-a {
     -webkit-transition: none !important;
     -moz-transition: none !important;
     -ms-transition: none !important;
     -o-transition: none !important;
     transition: none !important;
+}
+.productBlock {
+    border-radius: 20px;
+}
+#infinity-notes {
+    background: url(../res/img/infinity-notes.png);
+    background-size: cover;
+}
+#infinity-notes-h1 {
+    padding-top: 40%;
+}
+.colorWhite{
+    color: white;
 }

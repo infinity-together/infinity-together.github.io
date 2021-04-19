@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Brygada+1918:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -11,9 +12,9 @@ body {
     background-color: #fff;
 }
 
-.modern-text {
+.serifText {
     font-family: "Brygada 1918", serif;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .logo {
@@ -71,15 +72,11 @@ h1 {
     font-family: "Inter", sans-serif;
     font-size: 265%;
     font-weight: 500;
-    margin-top: 70px;
     padding: 0 0 0 0;
 }
 
-.main-space {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 30px 10%;
+.mainSpace {
+    margin: 0px 10%;
 }
 
 p {
