@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Brygada+1918:wght@500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+@import url('fonts/notosans_full.css');
  
 .a-a {
     -webkit-transition: none !important;
@@ -13,12 +14,31 @@
     border-radius: 20px;
 }
 #infinity-notes {
-    background: url(../res/img/infinity-notes.png);
+    background: url('../res/img/infinity-notes.png');
     background-size: cover;
+    padding-bottom: 30px;
+    padding-left: 37px;
 }
 #infinity-notes-h1 {
-    padding-top: 40%;
+    padding-top: 32%;
+}
+#notoText {
+    font-family: 'Noto Sans';
+    font-weight: 500;
+    font-size: 18px;
 }
 .colorWhite{
     color: white;
+}
+#inotesLB{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-family: "Noto Sans";
+    font-weight: 500;
+    background-color: #B73274;
+    margin-right: 37px;
+    margin-bottom: 37px;
+    float: right;
 }
