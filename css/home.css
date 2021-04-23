@@ -30,6 +30,7 @@
 .colorWhite{
     color: white;
 }
+
 #inotesLB{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -37,8 +38,12 @@
     padding-right: 18px;
     font-family: "Noto Sans";
     font-weight: 500;
+    margin-top: -48px;
     background-color: #B73274;
     margin-right: 37px;
     margin-bottom: 37px;
     float: right;
+}
+#inotesLB:hover{
+    background-color: #92255b;
 }
